@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+
+
 </head>
 <body>
 
@@ -33,6 +36,21 @@
                     <div class="form-group">
                         <label for="description"> Message</label>
                         <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                    </div>
+                    <div class="row">
+                        <label for="imgsize">Select size of QR Code Image</label>
+                        <select name="imgsize" id="imgsize">
+                            <option value="300x300">300 x 300</option>
+                            <option value="230x230">230 x 230</option>
+                            <option value="180x180">180 x 180</option>
+                            <option value="128x128">128 x 128</option>
+                        </select>
+                    </div>
+
+                    <div class="row">
+                        <label for="ColorPicker">Select color of QR Code Image</label>
+                        <input id="ColorPicker" name="Color Picker" type="color"/>
+                        <div id="colorpicker"></div>
                     </div>
                     <div>
 

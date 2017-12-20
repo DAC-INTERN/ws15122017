@@ -61,3 +61,17 @@ textarea.form-control {
 #left{
     text-align: right;
 }
+#imgsize {
+    margin-left: 1rem;
+    margin-bottom: 1em;
+}
+label{
+    margin-left: 1rem;
+}
+/*#pickcolor{
+    margin-left: 0.59rem;
+    margin-bottom: 1em;
+}*/
+#ColorPicker{
+    margin-left: 0.68rem;
+}
