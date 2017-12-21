@@ -10,10 +10,10 @@ $(document).ready(function () {
         	alert('You must write your text , pick your size and write out your color');
         }
         imgSrc+='&size='+size;
-        imgSrc+='&color='+color;
+        // imgSrc+='&color='+color;
         console.log(imgSrc);
         $('#qrcode').attr('src', imgSrc);
-
+        $('#qrcode').css('color',color)
     });
 
 });
