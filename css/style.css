@@ -36,6 +36,7 @@
     margin-top: 10px;
 }
 label{
+    padding: 2px;
     font-size: 1.3em;
     line-height: 1em;
     font-weight: normal;
@@ -62,16 +63,37 @@ textarea.form-control {
     text-align: right;
 }
 #imgsize {
-    margin-left: 1rem;
+    margin-left: 0;
     margin-bottom: 1em;
+    margin-bottom: 10px;
 }
-label{
+/*label{
     margin-left: 1rem;
-}
+}*/
 /*#pickcolor{
     margin-left: 0.59rem;
     margin-bottom: 1em;
 }*/
-#ColorPicker{
-    margin-left: 0.68rem;
+#ColorPicker1{
+    margin-left: 0;
+    margin-bottom: 10px;
+    width: 71px;
+    height: 27px;
+}
+#ColorPicker2{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 71px;
+    height: 27px;
+}
+.col-md-6 label{
+    margin-left: 0.1rem;
+}
+.col-md-6 {
+    padding-left: 4.5;
+    padding-right: 0;
+
+}
+.col-md-2 select{
+    margin-left: 0;
 }

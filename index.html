@@ -38,25 +38,44 @@
                         <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
                     </div>
                     <div class="row">
-                        <label for="imgsize">Select size of QR Code Image</label>
-                        <select name="imgsize" id="imgsize">
-                            <option value="300x300">300 x 300</option>
-                            <option value="230x230">230 x 230</option>
-                            <option value="180x180">180 x 180</option>
-                            <option value="128x128">128 x 128</option>
-                        </select>
+                        <div class="col-md-5">
+                            <label for="imgsize">Select size of QR Code Image</label>
+                        </div>
+                        <div class="col-md-2">
+                            <select name="imgsize" id="imgsize">
+                                <option value="300x300">300 x 300</option>
+                                <option value="240x240">230 x 230</option>
+                                <option value="180x180">180 x 180</option>
+                                <option value="128x128">128 x 128</option>
+                                <option value="62x62">62 x 62</option>
+                                <option value="32x32">32 x 32</option>
+                            </select>
+                        </div>
                     </div>
 
                     <div class="row">
-                        <label for="ColorPicker">Select color of QR Code Image</label>
-                        <input id="ColorPicker" name="Color Picker" type="color"/>
-                        <div id="colorpicker"></div>
+                        <div class="col-md-5">
+                            <label for="ColorPicker">Select color of QR Code Image</label>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="ColorPicker1" name="Color Picker1" type="color" />
+                        </div>
                     </div>
                     <div>
 
                         <button id="submit" type="button" class="btn btn-default submit"><i class="fa fa-paper-plane"
                                                                                 aria-hidden="true"></i> Generate QR
                         </button>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="ColorPicker">Select Background color of QR Code Image</label>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="ColorPicker2" name="Color Picker2" type="color"/>
+                        </div>
+
                     </div>
 
                 </div>
